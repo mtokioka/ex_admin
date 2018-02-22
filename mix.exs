@@ -41,7 +41,7 @@ defmodule ExAdmin.Mixfile do
       {:decimal, "~> 1.0"},
       {:phoenix, "~> 1.3.0-rc"},
       {:phoenix_html, "~> 2.6"},
-      {:ecto, "~> 2.1"},
+      {:ecto, github: "mtokioka/ecto", branch: "v2.2-pr2439", override: true},
       {:phoenix_ecto, "~> 3.2"},
       {:postgrex, "~> 0.13", only: :test},
       {:floki, "~> 0.8", only: :test},
